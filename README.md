@@ -15,9 +15,9 @@ A quick internal tool to log and visualize support team mood throughout the day.
 ```bash
 git clone https://github.com/swarba015/mochi.git
 cd mochi
-
-This app uses the Google Sheets API to read and write mood data. For security reasons, the credentials.json file (which contains private API keys) is not included in this repository. You need to create and configure your own to run the app.
 ```
+This app uses the Google Sheets API to read and write mood data. For security reasons, the credentials.json file (which contains private API keys) is not included in this repository. You need to create and configure your own to run the app.
+
 
 ## *Steps to set up your own credentials.json:*
 1. Go to the Google Cloud Console.
@@ -32,6 +32,7 @@ This app uses the Google Sheets API to read and write mood data. For security re
 Once your service account is created, it will have an email like this:
 ```bash 
 your-service-account@your-project.iam.gserviceaccount.com
+```
 Make sure to:
 1. Open your Google Sheet.
 2. Click Share.
